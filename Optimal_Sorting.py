@@ -1,10 +1,10 @@
-for _ in range(int(input())):
-    n=int(input())
-    l=list(map(int,input().split()))
-    r=sorted(l)
-    if(l==r):
-       print(0)
+a=int(input())
+while(a):
+    b=int(input())
+    s=list(map(int,input().split()))
+    b=sorted(s)
+    if(s==b):
+        print(0)
     else:
-        print(max(l)-min(l))
-    
-   
+        print(max(b)-min(b))
+    a-=1
