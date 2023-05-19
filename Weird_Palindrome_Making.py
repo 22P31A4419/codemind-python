@@ -1,8 +1,10 @@
-for _ in range(int(input())):
-    n=int(input())
-    l=list(map(int,input().split()))
+t=int(input())
+for i in range(t):
     c=0
-    for i in l:
-        if i%2!=0:
+    n=int(input())
+    a=list(map(int,input().split()))
+    s=len(a)
+    for j in range(0,s):
+        if a[j]%2!=0:
             c+=1
-    print(c//2)        
+    print(c//2)
